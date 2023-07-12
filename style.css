@@ -342,11 +342,18 @@ a {
 @media only screen and (max-width: 600px) {
   #product-list {
     width: 100%;
+    flex-direction: column;
   }
 
   #product-list li {
-    width: 50%;
+    width: 100%;
     margin-bottom: 5px;
+  }
+
+  #product-list li p {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
 
   /* Device */
@@ -361,9 +368,19 @@ a {
     font-size: 15px;
   }
 
+  /* Footer */
+  #footer {
+    flex-direction: column;
+  }
+
+  #footer li {
+    width: 100%;
+    margin-top: 5px;
+  }
+
 }
 
-@media only screen and (max-width: 380px) {
+/* @media only screen and (max-width: 450px) {
   #product-list li {
     width: 100%;
   }
@@ -380,4 +397,4 @@ a {
     width: 100%;
     margin-top: 5px;
   }
-}
+} */
