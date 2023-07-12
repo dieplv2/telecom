@@ -364,9 +364,20 @@ a {
     width: 100%;
   }
 
-  #img-list li img {
-    width: 45%;
+  /* img-list */
+  #img-list {
+    width: 100%;
   }
+  #img-list li {
+    float: none;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  #img-list li img {
+    width: 25%;
+  }
+
   #img-list li p {
     font-size: 15px;
   }
