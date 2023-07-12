@@ -279,9 +279,8 @@ a {
   padding: 5px;
   background-color: bisque;
 }
-#footer li:nth-child(2) {
-  margin: 0 5px;
-}
+
+
 #footer li a {
   color: blue;
   font-size: 1em;
@@ -364,12 +363,21 @@ a {
 
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 380px) {
   #product-list li {
     width: 100%;
   }
   #img-list li{
     float: none;
     width: 100%;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #footer li {
+    width: 100%;
+    margin-top: 5px;
   }
 }
