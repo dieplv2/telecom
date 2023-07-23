@@ -11,7 +11,7 @@
 
   <div id="slides">
     <div class="container">
-      <ul id="slides-list">
+      <ul id="slides-list" class="flex">
         <li><img src="./img/1.jpg" alt=""></li>
         <li><img src="./img/2.jpg" alt=""></li>
       </ul>
@@ -29,138 +29,46 @@
           <h1>Logo</h1>
         </div>
         <ul class="nav-list" id="navbar">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Product</a></li>
-          <li><a href="">Concat</a></li>
-          <li><a href="">Sevices</a></li>
+          <!-- This is render js -->
+          
         </ul>
       </div>
     </div>
   </div>
 
+  <!-- Products -->
+
   <div class="product">
     <div class="container">
+      <span class="top-link">
+        <a class="active" href="">Cáp quang hộ gia đình</a>
+        <a href="">Cáp quang doanh nghiệp</a>
+        <a href="">Liên hệ</a>
+      </span>
 
-      <h2 class="page-title"> Cáp quang hộ gia đình</h2>
-
-      <ul id="product-list">
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Giga</h3>
-          </a>
-            <h1>195.000</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-            <a href="tel:+">
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Sky</h3>
-          </a>
-            <h1>210.000</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-
-            <a href="tel:+">
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Meta</h3>
-          </a>
-            <h1>300.000</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-            <a href="tel:+">
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Camera</h3>
-          </a>
-            <h1>800.000</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-            <a href="tel:+">
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
+      <h2 class="page-title">Cáp quang hộ gia đình</h2>
+      <ul id="product-list" class="flex">
+        <!-- This is render from js -->
       </ul>
     </div>
+    <button class="prev">❮</button>
+    <button class="next">❯</button>
   </div>
+
+  <!-- Device -->
 
   <div class="device">
     <div class="container">
       <h2 class="page-title">Khuyến mãi và sự kiện</h2>
 
-      <div class="device-cart">
-        <div class="device-item">
-          <img src="./img/img (1).jpg" alt="">
-          <a href="">
-            <h2>Bai viet moi nhat</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptatum doloribus minima architecto sapiente quam natus. Explicabo saepe perspiciatis sint illo quaerat beata</p>
-          </a>
+      <div class="device-cart flex">
+        <div class="device-item" id="even">
+         <!-- this is render js -->
         </div>
         <div class="device-item">
           <ul id="img-list">
-            <li><img src="./img/img (2).jpg" alt="">
-              <h5>Device title</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident ex officiis libero ea</p>
-            </li>
-            <li><img src="./img/img (9).jpg" alt="">
-              <h5>Device title</h5>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident ex officiis libero ea</p>
-            </li>
-            <li><img src="./img/img (4).jpg" alt="">
-              <h5>Device title</h5>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident ex officiis libero ea</p>
-            </li>
-            <li><img src="./img/img (5).jpg" alt="">
-              <h5>Device title</h5>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident ex officiis libero ea</p>
-            </li>
-            <li><img src="./img/img (6).jpg" alt="">
-              <h5>Device title</h5>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident ex officiis libero ea</p>
-            </li>
-            <li><img src="./img/img (7).jpg" alt="">
-              <h5>Device title</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident ex officiis libero ea</p>
-            </li>
-      
+            <!-- this is render js -->
+   
           </ul>
         </div>
       </div>
@@ -168,7 +76,7 @@
   </div>
   <!-- =================== -->
 
-  <div class="slide">
+  <!-- <div class="slide">
     <div class="container">
       <ul id="slide-list">
         <li><img src="./img/1.jpg" alt=""></li>
@@ -176,113 +84,46 @@
         <li><img src="./img/3.jpg" alt=""></li>
       </ul>
     </div>
-  </div>
+  </div> -->
 
   <!-- ======================= -->
 
   <div class="sevice">
     <div class="container">
-      <!-- <h2 class="page-title">Sản phẩm và dịch vụ</h2> -->
+      <h2 class="page-title">Sản phẩm liên quan</h2>
 
-      <ul id="sevice-list" class="clearfix">
-        <li><a href="">
-          <img src="./img/1.jpg" alt="">
-        </a></li>
-        <li><a href="">
-          <img src="./img/3.jpg" alt="">
-        </a></li>
-        <li><a href="">
-          <img src="./img/2.jpg" alt="">
-        </a></li>
-        <li><a href="">
-          <img src="./img/1.jpg" alt="">
-        </a></li>
-        <li><a href="">
-          <img src="./img/3.jpg" alt="">
-        </a></li>
+      <ul class="sevice-list flex">
+        <li>
+          <img src="./img/img (9).jpg" alt="">
+          <div class="sevice-content">
+            <h4>Camera</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim alias repellendus</p>
+            <a href="" class="btn-link">cat</a>
+          </div>
+        </li>
+        <li>
+          <img src="./img/img (8).jpg" alt="">
+          <div class="sevice-content">
+            <h4>Internet</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim alias repellendus</p>
+            <a href="" class="btn-link">cat</a>
+          </div>
+        </li>
+        <li>
+          <img src="./img/img (7).jpg" alt="">
+          <div class="sevice-content">
+            <h4>Truyen Hinh</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim alias repellendus</p>
+            <a href="" class="btn-link">cat</a>
+          </div>
+        </li>
+        
       </ul>
     </div>
   </div>
 
   <!-- ===================== -->
-  <div class="product">
-    <div class="container">
 
-      <h2 class="page-title">Sản phẩm Dịch vụ</h2>
-
-      <ul id="product-list">
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>cáp quang</h3>
-   
-            <h1>Internet</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-          
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Iptv</h3>
-          
-            <h1>Truyền hình</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Camera</h3>
-  
-            <h1>Camera</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-         
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-        <li>
-          <img src="https://fpt.vn/assets/images/fpt-logo.svg" alt="">
-          <a href="">
-            <h3>Clound</h3>
-     
-            <h1>Clound</h1>
-            <p>
-              * Phù hợp cá nhân hộ gia đình nhỏ <br>
-              * Khách hàng trả trước 6 tháng tặng 1 tháng <br>
-              * Khách hàng trả trước 12 tháng tặng 2 tháng <br>
-              * Phí hòa mạng 300k <br>
-              * Giảm tiền mặt lên đến 200k tùy gói <br>
-            </p>
-        
-              <button class="btn-call">0961.232.585</button>
-            </a>
-        </li>
-      </ul>
-    </div>
-  </div>
- 
   <div class="footer">
     <div class="container">
       <h2 class="page-title">
